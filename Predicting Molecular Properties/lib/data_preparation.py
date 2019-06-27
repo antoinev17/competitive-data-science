@@ -27,7 +27,7 @@ def create_coupling_batch(molecule_structures, coupled_atoms, COUPLING_TYPE_NB =
         molecule = molecules.loc[(molecules['molecule_name'] == molecule_name)]
         atom_1 = molecule.loc[(molecule['atom_index'] == atom_index_A)].drop(drop_col, axis = 1).values
         atom_2 = molecule.loc[(molecule['atom_index'] == atom_index_B)].drop(drop_col, axis = 1).values
-
+        
         coupled_atoms_feat[i,:] = np.concatenate((atom_1, atom_2, coupling_type ), axis = 1)
         
         # calculate the mean position between the 2 coupled_atoms
@@ -44,5 +44,3 @@ def create_coupling_batch(molecule_structures, coupled_atoms, COUPLING_TYPE_NB =
         atom_pos_feat[i, :mol_atom_pos.shape[0], :mol_atom_pos.shape[1]] = mol_atom_pos.values
     
     return coupled_atoms_feat, atom_pos_feat
-
-print('hello world')

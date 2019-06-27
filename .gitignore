@@ -1,2 +1,6 @@
 
 Predicting Molecular Properties/data/*
+Predicting Molecular Properties/train-eval-dump
+*.ipynb
+*.ipynb
+Predicting Molecular Properties/.ipynb_checkpoints/Neural Network (RNN)-checkpoint.ipynb
