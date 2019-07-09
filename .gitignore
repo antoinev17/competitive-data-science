@@ -6,3 +6,7 @@ Predicting Molecular Properties/train-eval-dump
 Predicting Molecular Properties/.ipynb_checkpoints/Neural Network (RNN)-checkpoint.ipynb
 *.h5
 *.hdf5
+Predicting Molecular Properties/last_model/saved_model.pb
+Predicting Molecular Properties/last_model/variables/variables.data-00000-of-00002
+Predicting Molecular Properties/last_model/variables/variables.data-00001-of-00002
+Predicting Molecular Properties/last_model/variables/variables.index
