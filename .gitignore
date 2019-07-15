@@ -11,3 +11,8 @@ Predicting Molecular Properties/last_model/variables/variables.data-00000-of-000
 Predicting Molecular Properties/last_model/variables/variables.data-00001-of-00002
 Predicting Molecular Properties/last_model/variables/variables.index
 Predicting Molecular Properties/train-eval-dump-2
+*.v2
+Predicting Molecular Properties/logs/fit/20190712-234601/train/events.out.tfevents.1562967987.G751-ANTOINE.profile-empty
+Predicting Molecular Properties/logs/fit/20190712-234601/train/plugins/profile/2019-07-12_23-46-27/local.trace
+Predicting Molecular Properties/.ipynb_checkpoints/Neural Network (RNN)-checkpoint.ipynb
+Predicting Molecular Properties/.ipynb_checkpoints/Neural Network (RNN)-checkpoint.ipynb
